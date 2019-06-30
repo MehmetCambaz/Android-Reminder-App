@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hatirlatma"
+            android:icon="@drawable/hatirlat"
+            android:title="Hatırlatmalarım" />
+        <item
+            android:id="@+id/nav_liste"
+            android:icon="@drawable/liste"
+            android:title="Listelerim" />
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/plan"
+            android:title="Planlarım" />
+    </group>
+
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/nav_paylas"
+                android:icon="@drawable/paylas"
+                android:title="Paylaş" />
+            <item
+                android:id="@+id/nav_gonder"
+                android:icon="@drawable/gonder"
+                android:title="Gönder" />
+        </menu>
+    </item>
+</menu>
